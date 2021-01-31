@@ -27,10 +27,11 @@
   },
 
   "scripts": {
-    "start": "node server.js",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "node scripts/start.js",
+    "build": "node scripts/build/js",
+    "test": "node scripts/test.js",
     "eject": "react-scripts eject",
+    "server": "node server.js",
     "dev": "npx json-server --watch public/db.json --port=3001"
   },
   "eslintConfig": {
