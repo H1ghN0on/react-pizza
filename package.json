@@ -27,9 +27,9 @@
   },
 
   "scripts": {
-    "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
-    "test": "node scripts/test.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "node server.js",
     "dev": "npx json-server --watch public/db.json --port=3001"
